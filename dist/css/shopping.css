@@ -1,0 +1,191 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+dl,
+li,
+dt,
+dd,
+p,
+form,
+input,
+textarea,
+select,
+tr,
+td,
+th,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  background-color: #f7f8f8; }
+
+html,
+body {
+  width: 100%; }
+
+ul,
+ol {
+  list-style: none; }
+
+a,
+u {
+  text-decoration: none;
+  color: black; }
+
+b,
+strong {
+  font-weight: normal; }
+
+i,
+em {
+  font-style: normal; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+input,
+textarea,
+fieldset {
+  border: none;
+  outline: none; }
+
+.clearfn:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clearfn {
+  zoom: 1; }
+
+header {
+  width: 100%;
+  background-color: #f7f9f8; }
+  header #web-width {
+    clear: both;
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    margin: 0 auto;
+    box-sizing: border-box; }
+    header #web-width div:nth-child(1) {
+      float: left;
+      margin-right: 198px; }
+      header #web-width div:nth-child(1) ul li:nth-child(1) {
+        margin-right: 18px; }
+      header #web-width div:nth-child(1) ul li:nth-child(2) {
+        color: #008842;
+        margin-right: 18px; }
+      header #web-width div:nth-child(1) ul li:nth-child(3) i {
+        width: 16px;
+        height: 16px; }
+        header #web-width div:nth-child(1) ul li:nth-child(3) i img {
+          width: 16px;
+          height: 16px; }
+      header #web-width div:nth-child(1) ul li:nth-child(3) a:hover {
+        color: #008842; }
+      header #web-width div:nth-child(1) ul li {
+        float: left; }
+    header #web-width div:nth-child(2) {
+      float: left;
+      width: 80px;
+      height: 30px; }
+      header #web-width div:nth-child(2) a:hover {
+        color: #008842; }
+    header #web-width div:nth-child(3) {
+      float: right; }
+      header #web-width div:nth-child(3) ul li:nth-child(1) {
+        padding: 0 10px;
+        position: relative;
+        border-left: 1px solid rgba(0, 0, 0, 0);
+        border-right: 1px solid rgba(0, 0, 0, 0); }
+        header #web-width div:nth-child(3) ul li:nth-child(1) ul {
+          display: none;
+          width: 80px;
+          z-index: 300;
+          padding: 5px 12px;
+          text-align: left;
+          position: absolute;
+          top: 30px;
+          left: 0;
+          border: 1px solid #b4c1a3;
+          background: #fff; }
+          header #web-width div:nth-child(3) ul li:nth-child(1) ul li {
+            padding: 0;
+            border-left: 1px solid rgba(0, 0, 0, 0);
+            border-right: 1px solid rgba(0, 0, 0, 0);
+            display: block;
+            line-height: 25px;
+            color: #727272; }
+            header #web-width div:nth-child(3) ul li:nth-child(1) ul li:hover {
+              color: #008842;
+              border-left: 1px solid rgba(0, 0, 0, 0);
+              border-right: 1px solid rgba(0, 0, 0, 0); }
+        header #web-width div:nth-child(3) ul li:nth-child(1):hover ul {
+          display: block; }
+        header #web-width div:nth-child(3) ul li:nth-child(1):hover {
+          border-left: 1px solid #a6a6a6;
+          border-right: 1px solid #a6a6a6; }
+      header #web-width div:nth-child(3) li:nth-child(1) i {
+        background: url(../imges/ia_400000045.png)-40px 0;
+        margin-left: 0; }
+      header #web-width div:nth-child(3) li:nth-child(2) i {
+        background: url(../imges/ia_400000045.png)-64px 0; }
+      header #web-width div:nth-child(3) li:nth-child(3) i {
+        background: url(../imges/ia_400000045.png)-147px 0; }
+      header #web-width div:nth-child(3) li:nth-child(4) i {
+        background: url(../imges/ia_400000045.png)-86px 0; }
+      header #web-width div:nth-child(3) li:nth-child(5) i {
+        background: url(../imges/ia_400000002.png); }
+      header #web-width div:nth-child(3) li:nth-child(6) i {
+        background: url(../imges/ia_400000001.png); }
+      header #web-width div:nth-child(3) li {
+        float: left; }
+        header #web-width div:nth-child(3) li:hover {
+          color: #008842; }
+        header #web-width div:nth-child(3) li i {
+          display: block;
+          width: 18px;
+          height: 18px;
+          float: left;
+          margin-top: 8px;
+          margin-right: 4px;
+          margin-left: 20px; }
+        header #web-width div:nth-child(3) li p {
+          float: left; }
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 78px;
+  background-color: #e0e0e0; }
+  nav #search {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative; }
+    nav #search div:nth-child(1) img {
+      margin-top: 15px; }

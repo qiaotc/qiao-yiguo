@@ -1,0 +1,29 @@
+[
+   
+    
+       
+	{"id" :0,"img":"../imges/ia_400000014.jpg","price": "50元","name":"高级牛油果", "src":"details.html"},
+	{"id" :1,"img":"../imges/ia_400000015.jpg","price": "50元"},
+	{"id" :2,"img":"../imges/ia_400000016.jpg","price": "50元"},
+	{"id" :3,"img":"../imges/ia_400000017.jpg","price": "50元"},
+	{"id" :4,"img":"../imges/ia_400000018.jpg","price": "50元"},
+	{"id" :5,"img":"../imges/ia_400000019.jpg","price": "50元"},
+
+	{"id" :6,"img":"../imges/ia_400000021.jpg","price": "50元"},
+	{"id" :7,"img":"../imges/ia_400000022.jpg","price": "50元"},
+	{"id" :8,"img":"../imges/ia_400000023.jpg","price": "50元"},
+	{"id" :9,"img":"../imges/ia_400000024.jpg","price": "50元"},
+	{"id" :10,"img":"../imges/ia_400000014.jpg","price": "50元"},
+	{"id" :11,"img":"../imges/ia_400000026.jpg","price": "50元"} ,
+
+	{"id" :12,"img":"../imges/ia_400001047.jpg","price": "50元"},
+	{"id" :13,"img":"../imges/ia_400001048.jpg","price": "50元"},
+	{"id" :14,"img":"../imges/ia_400001049.jpg","price": "50元"},
+	{"id" :15,"img":"../imges/ia_400001050.jpg","price": "50元"},
+	{"id" :16,"img":"../imges/ia_400001051.jpg","price": "50元"},
+	{"id" :17,"img":"../imges/ia_400001052.jpg","price": "50元"},
+	{"id" :18,"img":"../imges/ia_400001053.jpg","price": "50元"},
+	{"id" :19,"img":"../imges/ia_400001054.jpg","price": "50元"}
+
+
+]
